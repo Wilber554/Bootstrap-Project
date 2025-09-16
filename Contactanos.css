@@ -1,0 +1,166 @@
+@import url('https://globeinfinite.com/wp-content/uploads/2025/01/26/jardin-opera-1.webp');
+body { 
+    background-image: url(https://globeinfinite.com/wp-content/uploads/2025/01/26/jardin-opera-1.webp); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--texto-claro);
+    line-height: 1.6;
+    font-family: "Raleway", sans-serif;
+} 
+.imageResponsive-bkg {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0px auto 80px auto;
+    background-color: var(--dark-overlay);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+}
+.titulo {
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 50px;
+}
+.titulo h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 4.5em;
+    color: var(--oro);
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+    animation: fadeInDown 1s ease-out;
+}
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0px auto 80px auto;
+    background-color: var(--dark-overlay);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+.contacto-i {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    color: var(--texto-claro);
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.contacto-i p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.contacto-i strong {
+    color: var(--oro);
+    font-weight: 600;
+}
+
+.contacto-i .reservacion {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 30px;
+    color: var(--vino-medio);
+}
+
+.toggle-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--vino-oscuro);
+    color: var(--texto-claro);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.toggle-button:hover {
+    background-color: var(--oro);
+    color: #333;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.extra-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-out, opacity 0.7s ease-out;
+    opacity: 0;
+    margin-top: 20px;
+}
+
+.extra-content.mostrar {
+    max-height: 200px;
+    opacity: 1;
+}
+
+.extra-content .action-link {
+    display: block;
+    color: var(--texto-claro);
+    text-decoration: none;
+    padding: 12px 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.extra-content .action-link:hover {
+    background-color: var(--vino-medio);
+    color: var(--texto-claro);
+    transform: translateX(5px);
+}
+
+.contact-image {
+    flex: 1;
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.contact-image img:hover {
+    transform: scale(1.03);
+    filter: brightness(1.1);
+}
