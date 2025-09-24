@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(/img/fondo.jpg);
+    background-image: url(img/fondo.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -398,3 +398,4 @@ body {
     .store-buttons img { width: 120px; }
     .footer-text { font-size: 0.85em; }
 }
+
