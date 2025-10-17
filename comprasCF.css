@@ -1,5 +1,5 @@
-  .product-image {
-            width: 80px;
+        .product-image {
+           width: 80px;
             height: 80px;
             object-fit: cover;
         }
@@ -19,3 +19,7 @@
             box-shadow: 0 8px 20px rgba(0,0,0,0.15);
             transform: translateY(-5px);
         } 
+        .navbar {
+        background-color: #EAAF61;
+        }
+
