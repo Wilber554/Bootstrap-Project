@@ -285,5 +285,106 @@ img {
   margin-bottom: 10px;
   font-size: 20px;
   font-family: Josefin Sans;
+} 
+
+@media (min-width: 1200px) {
+  .titulo h1 {
+    font-size: 6em;
+  }
+}
+
+/* Laptops y pantallas medianas */
+@media (max-width: 991px) {
+  .titulo h1 {
+    font-size: 4em;
+  }
+
+  .contacto {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 15px;
+  }
+
+  .info {
+    min-width: auto;
+    padding: 20px;
+  }
+
+  .te-esperamos {
+    font-size: 26px;
+  }
+
+  .store-buttons img {
+    width: 130px;
+  }
+}
+
+/* Tablets (pantallas entre 768px y 991px) */
+@media (max-width: 768px) {
+  .titulo h1 {
+    font-size: 3em;
+  }
+
+  .contacto {
+    gap: 20px;
+  }
+
+  .info p {
+    font-size: 1em;
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
+
+  .store-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Móviles (pantallas menores a 576px) */
+@media (max-width: 576px) {
+  img {
+    max-width: 100px;
+  }
+
+  .titulo h1 {
+    font-size: 2.2em;
+  }
+
+  .principal {
+    padding-top: 60px;
+  }
+
+  .info {
+    padding: 10px;
+  }
+
+  .info p {
+    font-size: 0.95em;
+  }
+
+  .te-esperamos {
+    font-size: 22px;
+  }
+
+  .store-buttons img {
+    width: 120px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .menu-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu-icon {
+    font-size: 18px;
+  }
 }
 
