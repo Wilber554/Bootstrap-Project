@@ -168,6 +168,41 @@
 
     </div>
 </main>
+        <div class="container mt-3" id="alertContainer"></div>
+
+<script>
+document.querySelector("form").addEventListener("submit", function(event) {
+  event.preventDefault(); 
+
+  const fullName = document.getElementById("fullName").value.trim();
+  const phone = document.getElementById("phone").value.trim();
+  const address = document.getElementById("address").value.trim();
+  const city = document.getElementById("city").value.trim();
+
+  const alertContainer = document.getElementById("alertContainer");
+
+  
+  alertContainer.innerHTML = "";
+
+  if (fullName && phone && address && city) {
+   
+    alertContainer.innerHTML = `
+      <div 
+      class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Compra realizada con éxito.</strong> Gracias por tu pedido.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>`;
+  } else {
+  
+    alertContainer.innerHTML = `
+      <div 
+      class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Error:</strong> compra no realizada. Por favor completa todos los espacios.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">/button>
+      </div>`;
+  }
+});
+</script>
 
 <!--Sistema de grid-->
 <div class=" title.drinks">
@@ -233,4 +268,5 @@
 
 
 </body>
+
 </html>
