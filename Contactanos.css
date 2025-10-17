@@ -175,14 +175,13 @@ img {
     padding-top: 100px;
     text-align: center;
     background-color: transparent;
-    margin-bottom: 45px;
 }
 .titulo h1 {
-    font-size: 5em;
+    font-size: 6em;
     font-family: "Playfair Display", serif;
-    color: #623F19;
+    color: #7c3f05;
     animation: fadeInDown 1s ease-out;
-    text-shadow: 4px 3px 12px #623F19;
+    text-shadow: 4px 3px 12px #ffffff;
 }
 .contacto {
     display: flex;
@@ -190,9 +189,9 @@ img {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    backdrop-filter: blur(6px);
+    background-color: #ffffff;
     border-radius: 20px;
-    box-shadow: 0 12px 35px #623F19;
+    box-shadow: 0 12px 35px #ffffff;
     margin: 0px auto 85px auto;
     max-width: 1200px;
     padding: 50px 20px;
