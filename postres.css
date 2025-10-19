@@ -126,7 +126,6 @@ img {
 }
 
 .dropdown>.dropdown-menu {
-    background-color: #C69D5F;
     border: none;
     border-radius: 0;
 }
@@ -142,24 +141,9 @@ img {
 
 @media (min-width:992px){
     .dropdown>.dropdown-menu {
-        visibility: hidden;
-        opacity: 0;
-        top: 100%;
-        display: block;
-        transition: all 0.1 ease-out;
-    }
-
-    .dropdown:hover>.dropdown-menu {
-        padding: 20px 0;
-        display: block;
-        visibility: visible;
-        opacity: 1;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .dropdown-item:hover {
-        color: #FFF;
-        background-color: #B77A3B;
+  background-color: #FFF;
+  border: none;
+  border-radius: 0;
     }
 }
 
@@ -330,6 +314,7 @@ img {
     width: 120px;
   }
 }
+
 
 
 
