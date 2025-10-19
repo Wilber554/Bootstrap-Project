@@ -1,25 +1,154 @@
-        .product-image {
-           width: 80px;
-            height: 80px;
-            object-fit: cover;
-        }
-        .order-summary, .payment-form {
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            padding: 2rem;
-            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-        }
+body {
+  background-color: #f5ede1;
+  font-family: "Poppins", sans-serif;
+  color: #4b2e05;
+  margin: 0;
+  padding: 0;
+}
 
-        .col{
-            color: burlywood;
-            border: 2px solid rgb(0, 0, 0);  
-        }
-        .card:hover {
-            transition: all 0.3s ease;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-            transform: translateY(-5px);
-        } 
-        .navbar {
-        background-color: #EAAF61;
-        }
+.navbar {
+  background-color: #EAAF61;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
 
+.navbar .nav-link {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.navbar img.logo-icon {
+  height: 60px;
+  width: auto;
+}
+
+.Texto-principal h1 {
+  color: #4b2e05;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.Texto-principal p {
+  color: #6b4e1e;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.order-summary, .payment-form {
+  background-color: #fff7f0;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(77, 53, 27, 0.15);
+  border: 1px solid #d9b89c;
+}
+
+.order-summary h4, .payment-form h4 {
+  color: #4b2e05;
+  font-weight: 700;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #a97448;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #a97448, #5c3a0f);
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #5c3a0f, #a97448);
+  box-shadow: 0 4px 10px rgba(75, 46, 5, 0.3);
+}
+
+.modal-content {
+  background: #fff7f0;
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #5c3a0f, #a97448);
+  color: white;
+  border-bottom: 2px solid #e3c39d;
+}
+
+.modal-title {
+  font-weight: 700;
+}
+
+.card {
+  background-color: #fff7f0;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: 1px solid #d9b89c;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(75, 46, 5, 0.2);
+}
+
+.list-group-item {
+  background-color: #fdf6ef;
+  border: none;
+  border-bottom: 1px solid #e3c39d;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.text-muted {
+  color: #7a5b37 ;
+}
+
+.bg-primary {
+  background-color: #a97448 ;
+}
+
+.form-label {
+  color: #4b2e05;
+  font-weight: 500;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #c9a57b;
+  padding: 10px;
+}
+
+.form-control:focus {
+  border-color: #a97448;
+  box-shadow: 0 0 5px rgba(169, 116, 72, 0.4);
+}
+
+.alert-success {
+  background-color: #d8f3dc;
+  border: 1px solid #74c69d;
+  color: #1b4332;
+}
+
+.alert-danger {
+  background-color: #fde2e1;
+  border: 1px solid #e76f51;
+  color: #6a040f;
+}
+
+@media (max-width: 768px) {
+  .Texto-principal h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .Texto-principal p {
+    text-align: center;
+  }
+  .navbar img.logo-icon {
+    height: 45px;
+  }
+}
