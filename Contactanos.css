@@ -106,131 +106,145 @@
   font-weight: 900;
   font-style: italic;
 }
+
 body {
-    background-image: url(img/fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: #ffffff;
-    font-family: Poppins, san-serif;
+  background-image: url(img/fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  font-family: Poppins, san-serif;
 }
+
 img {
-    max-width: 150px;
-    width: 100%;
+  max-width: 150px;
+  width: 100%;
 }
 
 .nav-link {
-    font-weight: 600;
-    color: #000;
+  font-weight: 600;
+  color: #000;
 }
 
 .navbar-toggler:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .dropdown>.dropdown-menu {
-    background-color: #FFF;
-    border: none;
-    border-radius: 0;
+  background-color: #FFF;
+  border: none;
+  border-radius: 0;
 }
 
 .lni-layers-1 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .lni-cross-circle {
-    font-size: 2rem;
+  font-size: 2rem;
 }
+
 .navbar {
-    background-color: #EAAF61;
+  background-color: #EAAF61;
 }
 
-@media (min-width:992px){
-    .dropdown>.dropdown-menu {
-        visibility: hidden;
-        opacity: 0;
-        top: 100%;
-        display: block;
-        transition: all 0.1 ease-out;
-    }
+@media (min-width:992px) {
+  .dropdown>.dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    top: 100%;
+    display: block;
+    transition: all 0.1 ease-out;
+  }
 
-    .dropdown:hover>.dropdown-menu {
-        padding: 20px 0;
-        display: block;
-        visibility: visible;
-        opacity: 1;
-        transition: all 0.3s ease-in-out;
-    }
+  .dropdown:hover>.dropdown-menu {
+    padding: 20px 0;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+  }
 
-    .dropdown-item:hover {
-        color: #FFF;
-        background-color: #000;
-    }
+  .dropdown-item:hover {
+    color: #FFF;
+    background-color: #000;
+  }
 }
+
 .principal {
-    align-items: center;
+  align-items: center;
 }
+
 .principal {
-    width: 100%;
-    padding-top: 100px;
-    text-align: center;
-    background-color: transparent;
+  width: 100%;
+  padding-top: 100px;
+  text-align: center;
+  background-color: transparent;
 }
+
 .titulo h1 {
-    font-size: 6em;
-    font-family: "Playfair Display", serif;
-    color: #7c3f05;
-    animation: fadeInDown 1s ease-out;
-    text-shadow: 4px 3px 12px #ffffff;
+  font-size: 6em;
+  font-family: "Playfair Display", serif;
+  color: #7c3f05;
+  animation: fadeInDown 1s ease-out;
+  text-shadow: 4px 3px 12px #ffffff;
 }
+
 .contacto {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0 12px 35px #ffffff;
-    margin: 0px auto 85px auto;
-    max-width: 1200px;
-    padding: 50px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px #ffffff;
+  margin: 0px auto 85px auto;
+  max-width: 1200px;
+  padding: 50px 20px;
 }
-.info{
-    text-align: center;
-    line-height: 2;
-    font-family: "Josefin Sans", sans-serif;
-    color: #623F19;
-    padding: 35px;
-    min-width: 400px;
-    flex: 1.5;
+
+.info {
+  text-align: center;
+  line-height: 2;
+  font-family: "Josefin Sans", sans-serif;
+  color: #623F19;
+  padding: 35px;
+  min-width: 400px;
+  flex: 1.5;
 }
+
 .info strong {
-    color: #C69D5F;
-    font-weight: 700;
+  color: #C69D5F;
+  font-weight: 700;
 }
+
 .info p {
-    font-size: 1.2em;
-    margin-bottom: 15px;
+  font-size: 1.2em;
+  margin-bottom: 15px;
 }
+
 .info .reservacion {
-    color: #B77A3B;
-    margin-top: 30px;
-    font-size: 1.3em;
-    font-weight: bold;
+  color: #B77A3B;
+  margin-top: 30px;
+  font-size: 1.3em;
+  font-weight: bold;
 }
+
 .te-esperamos {
-    text-align: center;
-    font-family: "PlayFair Display", serif;
-    text-shadow: 5px 4px 12px #623F19;
-    font-size: 30px;
+  text-align: center;
+  font-family: "PlayFair Display", serif;
+  text-shadow: 5px 4px 12px #623F19;
+  font-size: 30px;
 }
+
 .carrusel {
-    width: 90%;
-    height: 50%;
-    align-items: center;
-    text-align: center;
+  width: 90%;
+  height: 50%;
+  align-items: center;
+  text-align: center;
 }
+
 .footer {
   position: relative;
   width: 100%;
@@ -242,6 +256,7 @@ img {
   flex-direction: column;
   margin-top: 100px;
 }
+
 .menu-footer {
   display: flex;
   justify-content: center;
@@ -250,9 +265,11 @@ img {
   margin: 10px 0;
   flex: wrap;
 }
+
 .menu-elem {
   list-style: none;
 }
+
 .menu-icon {
   color: white;
   font-size: 20px;
@@ -263,13 +280,15 @@ img {
   transition: 0.3s;
   font-family: Josefin Sans;
 }
+
 .menu-icon:hover {
   opacity: 1;
 }
+
 .store-buttons {
   display: flex;
-  justify-content: center; 
-  gap: 20px;               
+  justify-content: center;
+  gap: 20px;
   margin: 20px 0;
 }
 
@@ -285,7 +304,7 @@ img {
   margin-bottom: 10px;
   font-size: 20px;
   font-family: Josefin Sans;
-} 
+}
 
 @media (min-width: 1200px) {
   .titulo h1 {
@@ -293,7 +312,6 @@ img {
   }
 }
 
-/* Laptops y pantallas medianas */
 @media (max-width: 991px) {
   .titulo h1 {
     font-size: 4em;
@@ -320,7 +338,6 @@ img {
   }
 }
 
-/* Tablets (pantallas entre 768px y 991px) */
 @media (max-width: 768px) {
   .titulo h1 {
     font-size: 3em;
@@ -344,7 +361,6 @@ img {
   }
 }
 
-/* Móviles (pantallas menores a 576px) */
 @media (max-width: 576px) {
   img {
     max-width: 100px;
@@ -387,4 +403,3 @@ img {
     font-size: 18px;
   }
 }
-
