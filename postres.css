@@ -280,7 +280,6 @@ img {
 .menu-icon:hover {
   opacity: 1;
 }
-
 .store-buttons {
   display: flex;
   justify-content: center;
@@ -331,6 +330,7 @@ img {
     width: 120px;
   }
 }
+
 
 
 
